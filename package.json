@@ -1,0 +1,19 @@
+{
+  "name": "dz",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "illia",
+  "type": "commonjs",
+  "homepage": "https://illia-pro2025.github.io/image_homeWork/",
+  "scripts": {
+    "predeploy": "parcel build src/index.html ",
+    "deploy": "gh-pages -d dist",
+    "start": "parcel src/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0",
+    "parcel": "^2.16.4"
+  }
+}
